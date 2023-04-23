@@ -1,3 +1,0 @@
-D:/ECE3574/qttest/src/build/CMakeFiles/qtexample.dir
-D:/ECE3574/qttest/src/build/CMakeFiles/ALL_BUILD.dir
-D:/ECE3574/qttest/src/build/CMakeFiles/ZERO_CHECK.dir
