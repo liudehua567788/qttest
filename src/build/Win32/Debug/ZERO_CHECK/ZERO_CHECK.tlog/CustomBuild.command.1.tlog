@@ -1,0 +1,10 @@
+^D:\ECE3574\QTTEST\SRC\BUILD\CMAKEFILES\D42F88A67A78FE11A0D7BF59100D56E4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/ECE3574/qttest/src -BD:/ECE3574/qttest/src/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ECE3574/qttest/src/build/QtExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
